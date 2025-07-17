@@ -1,18 +1,51 @@
-## Getting Started
+# 💳 Conta Terminal
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Um programa simples em Java que simula a criação de uma conta bancária via terminal, coletando informações do usuário como número da conta, agência, nome e valor inicial do depósito.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📋 Descrição
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Este projeto foi desenvolvido com o objetivo de praticar a entrada de dados via terminal usando a linguagem Java. O usuário interage com o sistema digitando suas informações, e ao final o programa retorna um resumo com os dados fornecidos.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🚀 Funcionalidades
 
-## Dependency Management
+- Solicita o número da conta
+- Solicita a agência bancária
+- Solicita a quantia para depósito
+- Solicita o nome ou apelido do usuário
+- Exibe uma mensagem final com os dados inseridos formatados
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 📌 Exemplo de uso
+
+```bash
+Olá Cliente, por favor, insira o número da sua conta:
+> 1234
+Por favor, insira sua agência:
+> 5678-9
+Por favor, insira a quantia que deseja depositar:
+> 1500.75
+Agora digite como gostaria de ser chamado:
+> João
+
+Muito obrigado por criar sua conta, João!
+Agência: 5678-9
+Número da Conta: 1234
+Depósito Inicial: R$ 1500.75
+```
+
+# 🛠️ Tecnologias utilizadas
+Java 17 (ou compatível)
+
+Scanner (para entrada de dados via terminal)
+
+# 👨‍💻 Autor
+Feito por Alvarengazy
+
+
+
+
